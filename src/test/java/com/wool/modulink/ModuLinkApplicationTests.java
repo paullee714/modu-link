@@ -16,7 +16,7 @@ import java.util.Optional;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
-@Rollback(false)
+@Rollback(true)
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class ModuLinkApplicationTests {
 
